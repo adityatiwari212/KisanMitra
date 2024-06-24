@@ -1,0 +1,69 @@
+/* newProduct.css */
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+}
+
+/* newProduct.css */
+
+.h2 {
+  color: #333; /* Text color */
+  font-size: 24px; /* Font size */
+  margin-bottom: 20px; /* Bottom margin for spacing */
+  text-align: center; /* Center align the text */
+  text-transform: uppercase; /* Convert text to uppercase */
+}
+
+
+textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+input[type="file"] {
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Image preview */
+.img-preview {
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 10px;
+}
